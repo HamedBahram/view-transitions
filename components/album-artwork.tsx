@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { PlusCircledIcon } from '@radix-ui/react-icons'
+import { Link } from 'next-view-transitions'
 
 import { cn } from '@/lib/utils'
 import {
@@ -15,7 +16,6 @@ import {
 
 import { Album } from '@/data/albums'
 import { playlists } from '@/data/playlists'
-import { Link } from 'next-view-transitions'
 
 interface AlbumArtworkProps extends React.HTMLAttributes<HTMLDivElement> {
   album: Album
